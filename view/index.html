@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario</title>
+</head>
+
+<body>
+    <h1>Tienda ADSO</h1>
+    <label for="">Codigo</label>
+    <input id="codigo" type="number">
+    <br>
+    <label for="">Descripcion</label>
+    <input id="descripcion" type="text">
+    <br>
+    <label for="">Precio</label>
+    <input id="precio" type="number">
+    <br>
+    <label for="">Cantidad</label>
+    <input id="cantidad" type="number">
+    <br>
+    <button onclick="RegistrarProducto();">Registrar</button>
+    <hr>
+    <h1>Lista Productos</h1>
+    <table border="1">
+            <tr>
+                <th>#</th>
+                <th>Codigo</th>
+                <th>Descripcion</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+                <th>Accion</th>
+            </tr>
+        <tbody id="cuerpotabla">
+ 
+        </tbody>
+    </table>
+    <script src="/js/index.js"></script>
+</body>
+</html>
